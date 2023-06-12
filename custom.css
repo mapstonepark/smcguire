@@ -47,7 +47,7 @@ li{
 .menu__btn {
   position: fixed;
   top: 20px;
-  left: 20px;
+  right: 20px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -76,7 +76,7 @@ li{
   position: fixed;
   top: 0;
   left: -100%;
-  width: 300px;
+  width: 100vw;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -99,6 +99,10 @@ li{
   background-color: #CFD8DC;
 }
 
+
+
+/* M E D I A     Q U E R I E S */
+
 @media only screen and (max-width: 790px) {
  
 .desktop{
@@ -108,12 +112,10 @@ li{
  
 .hamburger-menu{
     display: flex;
-    height: 10vh;
+    height: 5vh;
     z-index: 1;
     
 }
-
-
 
 
 #menu__toggle {
@@ -135,8 +137,8 @@ li{
 }
 .menu__btn {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 50px;
+  right: 20px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -167,8 +169,8 @@ li{
   position: fixed;
   top: 0;
   left: -100%;
-  width: 95vw;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 80px 0;
   list-style: none;
