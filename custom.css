@@ -101,7 +101,9 @@ li{
 
 @media only screen and (max-width: 790px) {
  
-
+.desktop{
+    display:none;
+}
     /* Hamburger Menu */
  
 .hamburger-menu{
