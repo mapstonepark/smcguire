@@ -106,7 +106,7 @@ li{
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-decoration: none;
   transition-duration: .25s;
 }
@@ -219,7 +219,7 @@ li{
   color: #333;
   font-family: var(--primary-body-ff);
   font-size: 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-decoration: none;
   transition-duration: .25s;
 }
