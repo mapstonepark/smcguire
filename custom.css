@@ -13,7 +13,7 @@
 header{
     display:flex;
     align-items: center;
-    max-width: 50vw;
+    max-width: 80vw;
     justify-content: space-between;
  
 }
@@ -21,6 +21,7 @@ header{
 .top-bar{
   display:flex;
   width:100vw;
+  align-items: center;
   justify-content: space-between;
  
 }
@@ -119,7 +120,7 @@ li{
 /*  H E R O     B A N N E R  */
 
 .banners{
-  max-width: 50vw;
+  max-width: 80vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
