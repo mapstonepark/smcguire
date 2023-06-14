@@ -127,6 +127,12 @@ li{
   
 }
 
+/*    H E R O     S E C T I O N     */
+.hero{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 /* M E D I A     Q U E R I E S */
 
