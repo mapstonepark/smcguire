@@ -10,10 +10,11 @@
   align-items: center;
 }
 
+
 header{
     display:flex;
     align-items: center;
-    max-width: 80vw;
+    max-width: 60vw;
     justify-content: space-between;
  
 }
@@ -120,7 +121,7 @@ li{
 /*  H E R O     B A N N E R  */
 
 .banners{
-  max-width: 80vw;
+  max-width: 60vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -132,6 +133,7 @@ li{
   display:flex;
   flex-direction: column;
   text-align: center;
+  max-width: 60vw;
 }
 
 /* M E D I A     Q U E R I E S */
@@ -155,6 +157,13 @@ li{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 80vw;
 }
 
 
