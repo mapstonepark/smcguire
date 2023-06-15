@@ -36,6 +36,18 @@ li{
     list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:green;
+}
+
+a:visted{
+  color:red
+}
+
 .home{
     font-size: 25px;
  
@@ -134,6 +146,10 @@ li{
   flex-direction: column;
   text-align: center;
   max-width: 60vw;
+}
+
+p{
+  margin-bottom: 1em;
 }
 
 /* M E D I A     Q U E R I E S */
