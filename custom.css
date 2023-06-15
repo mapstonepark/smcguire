@@ -1,6 +1,9 @@
 .wrapper{
     padding: 2em;
     font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+    width:100vw;
+    
     
 }
 
@@ -16,6 +19,7 @@ header{
     align-items: center;
     max-width: 60vw;
     justify-content: space-between;
+    font-weight: bold;
  
 }
 
@@ -45,7 +49,7 @@ a:hover{
 }
 
 a:visted{
-  color:red
+  color:yellow;
 }
 
 .home{
