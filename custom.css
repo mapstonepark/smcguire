@@ -245,6 +245,11 @@ p{
   padding: 2% 5%;
 }
 
+button.linkage{
+  font-weight: bold;
+  width: 150px;
+  margin: auto;
+}
 
 #menu__toggle {
   opacity: 0;
