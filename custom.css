@@ -234,7 +234,7 @@ footer{
   display: flex;
   flex-direction: column;
   background-color: black;
-  color: white;
+  color: gray;
   padding: 2em;
   font-size: large;
   text-align: center;
