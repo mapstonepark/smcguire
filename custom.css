@@ -37,6 +37,8 @@ header{
     padding: 2em;
 }
 
+
+
 button{
   background-color: white; 
   border: solid 2px;
@@ -76,7 +78,7 @@ button.linkage{
 .top-bar{
   display:flex;
   width:100vw;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
  
 }
@@ -106,6 +108,7 @@ a:visted{
 
 .home{
     font-size: 25px;
+    align-items: center;
  
 }
 
