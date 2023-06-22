@@ -2,7 +2,7 @@
   
   --primary-display: 'Roboto', sans-serif;
   --primary-body: 'Source Sans 3', sans-serif;
-    background-color: white;
+    /* background-color: rgb(252 248 247); */
     width:100vw;
 }
 
@@ -21,7 +21,9 @@ h1{
 h2{
   font-size: x-large;
   font-family: var(--primary-display);
+  font-weight: 900;
   padding-bottom: 1em;
+ 
 
 }
 
@@ -199,8 +201,23 @@ a:visted{
   flex-direction: column;
   text-align: center;
   padding: 2% 10%;
+
 }
 
+.samples{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2% 10%;
+  max-width: 95vw;
+  margin-bottom: 2em;
+  align-self: center;
+
+}
+
+.readmore{
+  font-weight: 900;
+}
 p{
   margin-bottom: 3em;
   line-height: 2em;
@@ -209,6 +226,18 @@ p{
   text-align: left;
   padding-bottom: 2em;
   font-family: var(--primary-body);
+}
+
+/*    F O O T E R    */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 2em;
+  font-size: large;
+  text-align: center;
 }
 
 /* M E D I A     Q U E R I E S */
@@ -243,6 +272,18 @@ p{
   flex-direction: column;
   text-align: center;
   padding: 2% 5%;
+}
+
+.samples{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2% 5%;
+
+  max-width: 95vw;
+  margin-bottom: 2em;
+  align-self: center;
+
 }
 
 button.linkage{
