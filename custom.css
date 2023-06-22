@@ -70,6 +70,7 @@ button.linkage{
 .extras{
   margin:0;
   align-self: center;
+
 }
 
 .top-bar{
@@ -214,6 +215,11 @@ a:visted{
   align-self: center;
 
 }
+ol{
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5em;
+}
 
 .readmore{
   font-weight: 900;
@@ -270,7 +276,7 @@ footer{
 .hero{
   display:flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   padding: 2% 5%;
 }
 
