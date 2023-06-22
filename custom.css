@@ -210,9 +210,10 @@ a:visted{
   flex-direction: column;
   text-align: left;
   padding: 2% 10%;
-  max-width: 95vw;
+  /* max-width: 95vw; */
   margin-bottom: 2em;
   align-self: center;
+ 
 
 }
 ol{
@@ -273,23 +274,23 @@ footer{
   margin-right: auto;
 }
 
-.hero{
+.hero {
   display:flex;
   flex-direction: column;
   text-align: left;
   padding: 2% 5%;
+
 }
+
 
 .samples{
   display:flex;
   flex-direction: column;
   text-align: left;
   padding: 2% 5%;
-
   max-width: 95vw;
   margin-bottom: 2em;
   align-self: center;
-
 }
 
 button.linkage{
